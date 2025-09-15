@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react'
+import {  useState } from 'react'
 import fetchMovies from '../../movieService';
 import SearchBar from '../SearchBar/SearchBar';
-import { Movie } from '../../../movie';
+import type { Movie } from '../../../movie';
 import MovieGrid from '../MovieGrid/MovieGrid';
 import Loader from '../Loader/Loader';
 import toast, { Toaster } from "react-hot-toast";

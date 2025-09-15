@@ -1,4 +1,4 @@
-import type { Movie } from "../../../movie"
+import type { Movie } from "../../types/movie"
 import css from "./MovieGrid.module.css"
 
 

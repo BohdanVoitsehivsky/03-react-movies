@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Movie } from "../movie";
+import type { Movie } from "../types/movie";
 export type MovieHttpResponse = {
     results: Movie[]
 }

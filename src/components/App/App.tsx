@@ -59,7 +59,7 @@ const handleCloseModal = () => {
   return (
     <>
     <Toaster position='top-right'/>
-    <SearchBar onSubmit={handleSearch}/>
+    <SearchBar onSearch={handleSearch}/>
     <div className={css.app}>
       {loading&& <Loader/>}
       {!loading && movies.length > 0 && (
